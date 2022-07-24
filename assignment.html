@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     
+    
+    </head>
+<body>
+<script>
+    function myFunction() {
+        Text='Hi ';
+        //document.getElementById("myDiv").innerHTML = "abc";
+        document.getElementById("myDiv").innerHTML = document.getElementById("myDiv").innerHTML + Text;
+    }
+
+</script>
+
+<p>In this example, the yelllow div will get a new Hi every time you mouse over it:</p>
+
+<div style="padding:50px; background:yellow" onmouseover="myFunction()" id="myDiv"></div>
+
+</body>
+</html>
